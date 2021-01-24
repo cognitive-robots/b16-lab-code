@@ -12,7 +12,7 @@
 #include <sstream>
 #include <iomanip>
 
-inline int ROUND(float x) { return (floor(x + 0.5)); }
+#include <tgmath.h>
 
 typedef std::vector<Figure*> figures_t ;
 figures_t figures ;
@@ -40,8 +40,8 @@ Figure::Figure(std::string name)
   // also limits the frame rate to the one o the scren
 #if defined(__APPLE__)
   int swap_interval = 1;
-  CGLContextObj cgl_context = CGLGetCurrentContext();
-  CGLSetParameter(cgl_context, kCGLCPSwapInterval, &swap_interval);
+  // CGLContextObj cgl_context = CGLGetCurrentContext();
+  // CGLSetParameter(cgl_context, kCGLCPSwapInterval, &swap_interval);
 #endif
 
   updateGrid() ;
@@ -64,7 +64,7 @@ void Figure::updateGrid()
   std::stringstream sstr ;
   glColor3f(0.8f, 0.8f, 0.8f);
   for (x = xmin ; x <= xmax ; x += (xmax-xmin)/10.0) {
-    x = ROUND(x * 10.0) / 10.0 ;
+    x = round(x * 10.0) / 10.0 ;
     glBegin(GL_LINES) ;
     glVertex2d(x,-1) ;
     glVertex2d(x,+1) ;
@@ -75,7 +75,7 @@ void Figure::updateGrid()
     drawString(x+2*pixelSize,2*pixelSize,sstr.str()) ;
   }
   for (y = ymin ; y <= ymax ; y += (ymax-ymin)/10.0) {
-    y = ROUND(y * 10.0) / 10.0 ;
+    y = round(y * 10.0) / 10.0 ;
     glBegin(GL_LINES) ;
     glVertex2d(-1,y) ;
     glVertex2d(1,y) ;
@@ -159,7 +159,7 @@ void Figure::reshape(int width, int height)
   glViewport(0, 0, width, height);
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity();
-  gluOrtho2D(-aspect*ysize/2+x0,aspect*ysize/2+x0,ymin,ymax) ;
+  // gluOrtho2D(-aspect*ysize/2+x0,aspect*ysize/2+x0,ymin,ymax) ;
   updateGrid() ;
   glutPostRedisplay() ;
 }

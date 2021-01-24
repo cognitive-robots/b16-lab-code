@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test-ball",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/test-ball",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "test-ball"
+        },
+        {
+            "name": "test-ball-graphics",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/test-ball-graphics",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "test-ball-graphics"
+        },
+        {
+            "name": "test-springmass",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/test-springmass",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "test-springmass"
+        },
+        {
+            "name": "test-springmass-graphics",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/test-springmass-graphics",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "test-springmass-graphics"
+        }
+    ]
+}
