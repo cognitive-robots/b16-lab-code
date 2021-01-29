@@ -31,6 +31,32 @@
             "preLaunchTask": "test-ball-graphics"
         },
         {
+            "name": "test-ball-graphics-win64",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/test-ball-graphics",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "test-ball-graphics"
+        },
+        {
+            "name": "test-ball-graphics-win32",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/test-ball-graphics",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "test-ball-graphics"
+        },
+        {
             "name": "test-springmass",
             "type": "cppdbg",
             "request": "launch",
