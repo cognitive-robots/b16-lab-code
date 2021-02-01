@@ -9,7 +9,7 @@
                 "test-ball.cpp",
                 "ball.cpp",
                 "-o",
-                "${fileDirname}/test-ball"
+                "${workspaceFolder}/test-ball"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -35,7 +35,7 @@
                 "ball.cpp",
                 "graphics.cpp",
                 "-o",
-                "${fileDirname}/test-ball-graphics"
+                "${workspaceFolder}/test-ball-graphics"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -63,7 +63,7 @@
                 "-lopengl32",
                 "-lfreeglut",
                 "-o",
-                "${fileDirname}/test-ball-graphics"
+                "${workspaceFolder}/test-ball-graphics"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -91,7 +91,7 @@
                 "-lopengl32",
                 "-lfreeglut",
                 "-o",
-                "${fileDirname}/test-ball-graphics"
+                "${workspaceFolder}/test-ball-graphics"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -114,7 +114,7 @@
                 "springmass.cpp",
                 "test-springmass.cpp",
                 "-o",
-                "${fileDirname}/test-springmass"
+                "${workspaceFolder}/test-springmass"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -140,7 +140,7 @@
                 "springmass.cpp",
                 "graphics.cpp",
                 "-o",
-                "${fileDirname}/test-springmass-graphics"
+                "${workspaceFolder}/test-springmass-graphics"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
