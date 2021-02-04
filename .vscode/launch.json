@@ -28,7 +28,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "preLaunchTask": "test-ball"
+            "preLaunchTask": "test-ball-win"
         },
         {
             "name": "test-ball-graphics",
@@ -54,7 +54,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "preLaunchTask": "test-ball-graphics"
+            "preLaunchTask": "test-ball-graphics-win64"
         },
         {
             "name": "test-ball-graphics-win32",
@@ -67,7 +67,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "preLaunchTask": "test-ball-graphics"
+            "preLaunchTask": "test-ball-graphics-win32"
         },
         {
             "name": "test-springmass",
@@ -93,7 +93,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "preLaunchTask": "test-springmass"
+            "preLaunchTask": "test-springmass-win"
         },
         {
             "name": "test-springmass-graphics",
@@ -119,7 +119,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "preLaunchTask": "test-springmass-graphics"
+            "preLaunchTask": "test-springmass-graphics-win64"
         },
         {
             "name": "test-springmass-graphics-win32",
@@ -132,7 +132,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "preLaunchTask": "test-springmass-graphics"
+            "preLaunchTask": "test-springmass-graphics-win32"
         }
     ]
 }
