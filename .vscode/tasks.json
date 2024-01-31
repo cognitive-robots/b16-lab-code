@@ -55,11 +55,11 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "-lglut",
-                "-lGL",
                 "test-ball-graphics.cpp",
                 "ball.cpp",
                 "graphics.cpp",
+                "-lglut",
+                "-lGL",
                 "-o",
                 "${workspaceFolder}/test-ball-graphics"
             ],
@@ -81,11 +81,11 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "-lglut",
-                "-lGL",
                 "test-springmass-graphics.cpp",
                 "springmass.cpp",
                 "graphics.cpp",
+                "-lglut",
+                "-lGL",
                 "-o",
                 "${workspaceFolder}/test-springmass-graphics"
             ],
