@@ -14,60 +14,8 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
+            "miDebuggerPath": "/usr/bin/gdb",
             "preLaunchTask": "test-ball"
-        },
-        {
-            "name": "test-ball-win",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}\\test-ball",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "preLaunchTask": "test-ball-win"
-        },
-        {
-            "name": "test-ball-graphics",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/test-ball-graphics",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "test-ball-graphics"
-        },
-        {
-            "name": "test-ball-graphics-win64",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}\\test-ball-graphics",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "preLaunchTask": "test-ball-graphics-win64"
-        },
-        {
-            "name": "test-ball-graphics-win32",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}\\test-ball-graphics",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "preLaunchTask": "test-ball-graphics-win32"
         },
         {
             "name": "test-springmass",
@@ -79,21 +27,21 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
+            "miDebuggerPath": "/usr/bin/gdb",
             "preLaunchTask": "test-springmass"
         },
         {
-            "name": "test-springmass-win",
+            "name": "test-ball-graphics",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\test-springmass",
+            "program": "${workspaceFolder}/test-ball-graphics",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "gdb",
-            "preLaunchTask": "test-springmass-win"
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "test-ball-graphics"
         },
         {
             "name": "test-springmass-graphics",
@@ -105,34 +53,8 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
+            "miDebuggerPath": "/usr/bin/gdb",
             "preLaunchTask": "test-springmass-graphics"
-        },
-        {
-            "name": "test-springmass-graphics-win64",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}\\test-springmass-graphics",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "preLaunchTask": "test-springmass-graphics-win64"
-        },
-        {
-            "name": "test-springmass-graphics-win32",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}\\test-springmass-graphics",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "preLaunchTask": "test-springmass-graphics-win32"
         }
     ]
 }
